@@ -3616,7 +3616,7 @@ angular.module('o19s.splainer-search')
 angular.module('o19s.splainer-search')
   .value('defaultSolrConfig', {
     sanitize:     true,
-    highlight:    true,
+    highlight:    false,
     debug:        true,
     numberOfRows: 10,
     escapeQuery:  true
